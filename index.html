@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json" />
+    <script src="./apps.js"></script>
+    <meta name="theme-color" content="#f8fcfa" /> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1 align="center">Tugas Desain Web</h1>
+    <p align="center">Program Studi Informatika</p>
+    <p align="center">Universitas Andalas</p>
+    <img src="Logo Unand PTNBH.png" class="center" style="width: 20%; height: 21%;" alt="Logo Unand"/>
+    <p align="center"> Dosen Pengampu : Luthfil Khairi, S.Kom., M.Cs.</p>
+</body>
+<script>
+    window.addEventListener("load", () => {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js")
+      }
+    })
+  </script>
+</html>
